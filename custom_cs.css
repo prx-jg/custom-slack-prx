@@ -37,6 +37,7 @@ limitations under the License.
 }
 
 h1, h2, h3, h4 {
+	font-family: "Comic Sans MS", cursive, sans-serif;
   color: var(--text);
 }
 
@@ -67,6 +68,7 @@ hr {
 /*.TeamSidebar, .TeamSidebar .StoplightContainer, .TeamSidebar .TeamSidebar-addArea {*/
 /*nav.p-channel_sidebar {*/
 div.client_channels_list_container {
+	font-family: "Comic Sans MS", cursive, sans-serif;
    background-color: var(--background-elevated) !important;
    box-shadow: var(--background-elevated) 1px 1px 25px;
    color: var(--text);
@@ -74,6 +76,7 @@ div.client_channels_list_container {
 }
 
 nav.p-channel_sidebar {
+	font-family: "Comic Sans MS", cursive, sans-serif;
    background-color: var(--background-elevated);
    color: var(--text);
 }
