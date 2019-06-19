@@ -1072,39 +1072,47 @@ div::-webkit-scrollbar-thumb {
 
 /* Snippets */
 select {
+	font-family: "Comic Sans MS", cursive, sans-serif;
    background-color: var(--background);
    color: var(--text);
    border-color: var(--border-dim);
 }
 
 #select_share_channels .lazy_filter_select .lfs_value .lfs_item.selected {
+	font-family: "Comic Sans MS", cursive, sans-serif;
     color: var(--text);
 }
 
 .CodeMirror, .CodeMirror .CodeMirror-gutters, .CodeMirror-gutter {
+	font-family: "Comic Sans MS", cursive, sans-serif;
    background-color: var(--background) !important;;
    border-color: var(--border-bright);
    color: var(--text);
 }
 
 .CodeMirror .CodeMirror-line {
+	font-family: "Comic Sans MS", cursive, sans-serif;
    background-color: var(--background);
 }
 
 .CodeMirror-cursor {
+	font-family: "Comic Sans MS", cursive, sans-serif;
    border-left-color: var(--text);
 }
 
 .CodeMirror-selected {
+	font-family: "Comic Sans MS", cursive, sans-serif;
   background-color: rgba(255, 255, 255, 0.2) !important;
 }
 
 .modal div, .modal span, .modal label {
+	font-family: "Comic Sans MS", cursive, sans-serif;
   color: var(--text);
 }
 
 .lazy_filter_select .lfs_list_container,
 .lazy_filter_select .lfs_list .lfs_item.active {
+	font-family: "Comic Sans MS", cursive, sans-serif;
   background-color: var(--background-elevated);
 }
 
@@ -1120,6 +1128,7 @@ select {
 
 /* profile */
 #fs_modal #fs_modal_footer {
+	font-family: "Comic Sans MS", cursive, sans-serif;
    background-color:var(--background-elevated)
 }
 
@@ -1171,6 +1180,7 @@ ts-jumper ts-jumper-container {
 
 /* tabs */
 .c-tabs__tab.c-tabs__tab--active, .c-tabs__tab:active, .c-tabs__tab:focus {
+	font-family: "Comic Sans MS", cursive, sans-serif;
     color: var(--text);
 }
 
@@ -1183,10 +1193,12 @@ ts-jumper ts-jumper-container {
     background-color: var(--background-hover);
 }
 .c-fullscreen_modal__body {
+	font-family: "Comic Sans MS", cursive, sans-serif;
     color: var(--text);
 }
 
 .ts_toggle .ts_toggle_secondary_label {
+	font-family: "Comic Sans MS", cursive, sans-serif;
 	color: var(--text);
 }
 /* modal transition */
@@ -1396,72 +1408,92 @@ ts-jumper ts-jumper-container {
 
 /* snippet / file container / download bar */
 .c-snippet__code .CodeMirror-code>div:before {
+	font-family: "Comic Sans MS", cursive, sans-serif;
     background-color: var(--background);
 }
 .c-file_container--gradient:after {
+	font-family: "Comic Sans MS", cursive, sans-serif;
     background: linear-gradient(180deg,hsla(0,0%,100%,0),var(--background));
 }
 .c-file__title {
+	font-family: "Comic Sans MS", cursive, sans-serif;
     color: var(--text);
 }
 .c-file_container, .c-file__slide--meta {
+	font-family: "Comic Sans MS", cursive, sans-serif;
     background-color: var(--background-elevated);
 }
 .c-file_container {
+	font-family: "Comic Sans MS", cursive, sans-serif;
     border: 1px solid var(--border-dim);
 }
 .c-file__action_button, .c-file__action_button:link, .c-file__action_button:visited {
+	font-family: "Comic Sans MS", cursive, sans-serif;
     color: var(--text);
     background-color: var(--background);
 }
 .p-flexpane_header {
+	font-family: "Comic Sans MS", cursive, sans-serif;
     background: var(--background);
 }
 .p-downloads_list__shift_hint {
+	font-family: "Comic Sans MS", cursive, sans-serif;
     background: linear-gradient(180deg,hsla(0,0%,100%,0),var(--background)); 
 }
 .p-download_item {
     border: 1px solid var(--border-dim);
 }
 .p-download_item__container .p-download_item__name_row {
+	font-family: "Comic Sans MS", cursive, sans-serif;
     color: var(--text);
 }
 .p-download_item__actions {
+	font-family: "Comic Sans MS", cursive, sans-serif;
     background: var(--background-hover);
 }
 .c-message_attachment {
+	font-family: "Comic Sans MS", cursive, sans-serif;
     color: var(--text-bright);
 }
 .c-message_kit__file__meta {
+	font-family: "Comic Sans MS", cursive, sans-serif;
     color: var(--text);
 }
 .c-file_container--has_thumb .c-file__actions:before {
+	font-family: "Comic Sans MS", cursive, sans-serif;
 	background-image: none;
 }
 .c-pillow_file__swap .c-pillow_file__slide {
+	font-family: "Comic Sans MS", cursive, sans-serif;
     background: var(--background);
 }
 .c-pillow_file__icon--slide:after {
+	font-family: "Comic Sans MS", cursive, sans-serif;
     color: var(--background);
     border-color: var(--background);
 }
 .c-pillow_file__content--collapsed:after {
+	font-family: "Comic Sans MS", cursive, sans-serif;
     background: linear-gradient(0deg,var(--background),hsla(0,0%,100%,0) 40px);
     border: 1px solid;
 }
 .c-pillow_file__snippet__content .CodeMirror-code>div:before {
+	font-family: "Comic Sans MS", cursive, sans-serif;
 	color: var(--text);
 }
 /* file drafts */
 ts-rocket, ts-rocket.post_body {
+	font-family: "Comic Sans MS", cursive, sans-serif;
     color: var(--text);
 }
 
 .modal-backdrop {
+	font-family: "Comic Sans MS", cursive, sans-serif;
     background: var(--background-elevated);
 }
 
 nav {
+	font-family: "Comic Sans MS", cursive, sans-serif;
     background-color: var(--background-elevated);
 }
 
@@ -1528,13 +1560,16 @@ nav {
 
 /* message editor */
 .c-message__editor__input {
+	font-family: "Comic Sans MS", cursive, sans-serif;
     background: var(--background-elevated);
 }
 .c-message--highlight, .c-message--highlight_yellow_bg {
+	font-family: "Comic Sans MS", cursive, sans-serif;
     background: var(--background);
 }
 
 .c-message__editor__input--legacy {
+	font-family: "Comic Sans MS", cursive, sans-serif;
     background-color: var(--background-elevated);
 }
 /* new filelist */
