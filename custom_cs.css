@@ -22,18 +22,18 @@
 }
 
 h1, h2, h3, h4 {
-	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-family: "Comic Sans MS", cursive, sans-serif !important;
   color: var(--text);
 }
 
 body {
-	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-family: "Comic Sans MS", cursive, sans-serif !important;
     background: var(--background);
     color: var(--text);
 }
 hr {
     border: 0;
-    border-bottom: 1px solid var(--background-elevated);
+    border-bottom: 1px solid var(--background-elevated) !important;
 }
 
 .popover_mask {
@@ -42,7 +42,7 @@ hr {
 
 /* Team Picker */
 .TeamSidebar, .TeamSidebar .StoplightContainer, .TeamSidebar .TeamSidebar-addArea {
-	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-family: "Comic Sans MS", cursive, sans-serif !important;
    background-color: var(--background) !important;
    box-shadow: var(--background) 1px 1px 25px;
    color: var(--text);
@@ -54,7 +54,7 @@ hr {
 /*.TeamSidebar, .TeamSidebar .StoplightContainer, .TeamSidebar .TeamSidebar-addArea {*/
 /*nav.p-channel_sidebar {*/
 div.client_channels_list_container {
-	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-family: "Comic Sans MS", cursive, sans-serif !important;
    background-color: var(--background-elevated) !important;
    box-shadow: var(--background-elevated) 1px 1px 25px;
    color: var(--text);
@@ -70,7 +70,7 @@ nav.p-channel_sidebar {
 #team_menu,
 body:not(.loading) #team_menu:hover,
 body:not(.loading) #team_menu:active {
-	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-family: "Comic Sans MS", cursive, sans-serif !important;
    background-color: var(--background-elevated) !important;
 }
 
@@ -82,7 +82,7 @@ body:not(.loading) #team_menu:active {
 .p-channel_sidebar__link:visited,
 .p-channel_sidebar__channel:hover,
 .p-channel_sidebar__link:hover {
-	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-family: "Comic Sans MS", cursive, sans-serif !important;
    color: var(--text) !important;
 }
 
@@ -92,7 +92,7 @@ body:not(.loading) #team_menu:active {
 .p-channel_sidebar__link--invites:not(.p-channel_sidebar__link--dim) .p-channel_sidebar__name,
 .p-channel_sidebar__section_heading_label--clickable:hover,
 .p-channel_sidebar__quickswitcher:hover {
-	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-family: "Comic Sans MS", cursive, sans-serif !important;
    color: var(--text-bright) !important;
 }
 
@@ -109,7 +109,7 @@ ts-jumper input[type="text"],
 #channel_header_info, #channel_topic_text, #channel_topic_text code, #edit_topic_inner:before,
 .p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider, .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar)
 {
-	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-family: "Comic Sans MS", cursive, sans-serif !important;
   background: var(--background) !important;
   border-color: var(--border-dim);
 }
@@ -168,7 +168,7 @@ ts-jumper input[type="text"],
 
 /* this styles only the brighter variant of attachment borders */
 .c-message_attachment__border[style="background-color: rgb(208, 208, 208)"], .c-message_attachment__border:not([style]) {
-	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-family: "Comic Sans MS", cursive, sans-serif !important;
 	background-color: var(--background-elevated) !important;
 }
 
@@ -184,11 +184,11 @@ ts-jumper input[type="text"],
 }
 /* buttons */
 .btn.disabled, .btn.disabled:active, .btn.disabled:hover, .btn:disabled, .btn:disabled:active, .btn:disabled:hover {
-	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-family: "Comic Sans MS", cursive, sans-serif !important;
     background-color: var(--background-light) !important;
 }
 .btn_outline.hover, .btn_outline:focus, .btn_outline:hover {
-	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-family: "Comic Sans MS", cursive, sans-serif !important;
     background: var(--background-hover) !important;
 }
 .btn_basic:focus, .btn_basic:hover {
@@ -216,7 +216,7 @@ ts-jumper input[type="text"],
 .p-channel_sidebar__link--selected:visited,
 .p-channel_sidebar__channel--selected:hover,
 .p-channel_sidebar__link--selected:hover {
-	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-family: "Comic Sans MS", cursive, sans-serif !important;
    background-color: var(--background) !important;
    border: solid var(--border-bright);
    border-width: 1px 1px 1px 0;
@@ -224,7 +224,7 @@ ts-jumper input[type="text"],
 
 .p-channel_sidebar__channel:hover,
 .p-channel_sidebar__link:hover{
-	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-family: "Comic Sans MS", cursive, sans-serif !important;
    background-color: var(--background-hover) !important;
    border-color: transparent;
    color: var(--text) !important;
@@ -232,7 +232,7 @@ ts-jumper input[type="text"],
 }
 
 .p-channel_sidebar__close_container {
-	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-family: "Comic Sans MS", cursive, sans-serif !important;
    background: none !important;
 }
 
@@ -273,7 +273,7 @@ li.active[class] span,
 /*"unread mentions"*/
 .p-channel_sidebar__badge,
 .p-channel_sidebar__banner--mentions {
-	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-family: "Comic Sans MS", cursive, sans-serif !important;
    /*inverted because important*/
    background-color: var(--border-bright) !important;
    border-color: var(--text-bright);
