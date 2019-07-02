@@ -298,26 +298,31 @@ li.active[class] span,
 }
 
 #client_body::before, #client_body:not(.onboarding):before {
+	font-family: "Comic Sans MS", cursive, sans-serif !important;
   border-bottom: 1px solid var(--border-dim) !important;
   background: var(--background);
   box-shadow: none;
 }
 
 #client_body, #messages_container.has_top_messages_banner:before {
+	font-family: "Comic Sans MS", cursive, sans-serif !important;
    background: var(--background) !important;
 }
 
 ts-message, .channel_title .channel_name, ts-jumper input[type="text"],
 ts-jumper ol li .member_real_name, ts-jumper ol li .view_name, ts-jumper ol li .channel_name {
+	font-family: "Comic Sans MS", cursive, sans-serif !important;
   color: var(--text) !important;
 }
 
 .light_theme ts-message .message_content a.message_sender, #msg_input::-webkit-input-placeholder,
 ts-jumper input[type="text"]::-webkit-input-placeholder {
+	font-family: "Comic Sans MS", cursive, sans-serif !important;
   color: var(--text) !important;
 }
 
 #msg_input, #primary_file_button {
+	font-family: "Comic Sans MS", cursive, sans-serif !important;
   background: transparent !important;
   color: var(--text) !important;
   border-color: var(--border-dim) !important;
@@ -325,6 +330,7 @@ ts-jumper input[type="text"]::-webkit-input-placeholder {
 
 .day_divider .day_divider_label,
 #convo_container .convo_flexpane_divider .reply_count {
+	font-family: "Comic Sans MS", cursive, sans-serif !important;
   color: var(--text) !important;
   background-color: var(--background) !important;
   border: 1px solid var(--border-bright) !important;
@@ -336,46 +342,55 @@ ts-jumper input[type="text"]::-webkit-input-placeholder {
 }
 
 #convo_container .convo_flexpane_divider .reply_count {
+	font-family: "Comic Sans MS", cursive, sans-serif !important;
    border-radius: 10px;
    padding: 0px 10px;
 }
 
 .mention_day_container_div .day_divider:before {
+	font-family: "Comic Sans MS", cursive, sans-serif !important;
    background-color: transparent !important;
    border-color: var(--border-dim);
 }
 
 .day_container .day_msgs {
+	font-family: "Comic Sans MS", cursive, sans-serif !important;
   border-top: 1px solid var(--border-bright) !important;
   padding-right: 10px;
   padding-left: 2px;
 }
 
 textarea, input[type="text"], #file_comment_textarea {
+	font-family: "Comic Sans MS", cursive, sans-serif !important;
 	background-color: var(--background-elevated) !important;
    border-color: var(--border-dim) !important;
    color: var(--text) !important;
 }
 textarea:focus, input[type="text"]:focus, #file_comment_textarea {
+	font-family: "Comic Sans MS", cursive, sans-serif !important;
    border-color: var(--border-bright) !important;
    color: var(--text-bright) !important;
 }
 
 ts-message {
+	font-family: "Comic Sans MS", cursive, sans-serif !important;
    border-radius: 5px;
    margin: 1px 5px !important;
    box-shadow: none !important;
 }
 
 ts-message:hover {
+	font-family: "Comic Sans MS", cursive, sans-serif !important;
    background: var(--background-hover) !important;
 }
 
 #messages_container::after {
+	font-family: "Comic Sans MS", cursive, sans-serif !important;
    background: none !important;
 }
 
 .bot_label {
+	font-family: "Comic Sans MS", cursive, sans-serif !important;
    padding: 0 4px !important;
    border-radius: 3px !important;
    background: var(--background) !important;
@@ -400,6 +415,7 @@ ts-message .action_hover_container .btn_msg_action,
 .menu,
 .menu #menu_items_scroller,
 .btn, .btn_outline {
+	font-family: "Comic Sans MS", cursive, sans-serif !important;
   background: var(--background-elevated) !important;
 }
 
