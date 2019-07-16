@@ -3,10 +3,10 @@ body {
     -webkit-font-smoothing: auto;
 }
 .supports_custom_scrollbar #msg_input.texty_legacy .ql-editor{
-   ffont-family: "Comic Sans MS", cursive, sans-serif !important;
+   font-family: "Comic Sans MS", cursive, sans-serif !important;
 }
 .p-threads_footer__input--legacy .p-message_input_field .ql-editor {
-  ffont-family: "Comic Sans MS", cursive, sans-serif !important;
+  font-family: "Comic Sans MS", cursive, sans-serif !important;
 }
 div.c-message.c-message--light.c-message--hover {
     color: grey !important;
