@@ -1,16 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
-
 body {
-   font-family: 'Muli', sans-serif !important;
-    text-rendering: optimizeLegibility important;
-    word-spacing: -1px;
+   font-family: "Comic Sans MS", cursive, sans-serif !important;
     -webkit-font-smoothing: auto;
 }
 .supports_custom_scrollbar #msg_input.texty_legacy .ql-editor{
-   font-family: 'Muli', sans-serif !important;
+   font-family: "Comic Sans MS", cursive, sans-serif !important;
 }
 .p-threads_footer__input--legacy .p-message_input_field .ql-editor {
-  font-family: 'Muli', sans-serif !important;
+  font-family: "Comic Sans MS", cursive, sans-serif !important;
 }
 div.c-message.c-message--light.c-message--hover {
     color: grey !important;
