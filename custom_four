@@ -6,6 +6,7 @@ body {
     word-spacing: -1px;
     letter-spacing: 1px;
     -webkit-font-smoothing: auto;
+    
 }
 
 .supports_custom_scrollbar #msg_input.texty_legacy .ql-editor {
